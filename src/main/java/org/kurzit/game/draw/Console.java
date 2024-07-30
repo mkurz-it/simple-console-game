@@ -34,6 +34,7 @@ public class Console {
     public static void setPosition(final int x, final int y) {
         try {
             terminal.setCursorPosition(x, y);
+            terminal.setCursorVisible(false);
         } catch (final IOException e) {
             throw new RuntimeException(e);
         }
