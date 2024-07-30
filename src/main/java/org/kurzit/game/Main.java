@@ -13,6 +13,7 @@ public class Main {
     private static final char HL = '\u2500';
     private static final char VL = '\u2502';
 
+    // First change on Alex PC
     public static void main(String[] args) {
         Console.clearScreen();
         Console.setColor(TextColor.ANSI.MAGENTA);
